@@ -1,6 +1,6 @@
 package com.tcs.springframework.test.external.props;
 
-import com.tcs.springframework.SpringCoreDevOpsApplication;
+import com.tcs.springframework.SpringBootDevOpsApplication;
 import com.tcs.springframework.test.jms.FakeJmsBroker;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,7 +16,7 @@ import static org.junit.Assert.assertEquals;
  * Created by jt on 5/7/16.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(SpringCoreDevOpsApplication.class)
+@SpringApplicationConfiguration(SpringBootDevOpsApplication.class)
 @WebIntegrationTest
 @TestPropertySource("/application.properties")
 public class SpringBootPropertiesTest {
