@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import javax.jms.Queue;
 
 /**
- * Created by jt on 5/6/16.
+ * Created by at on 5/6/16.
  */
 @Configuration
 public class JMSConfig {

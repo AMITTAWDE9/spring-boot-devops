@@ -1,9 +1,9 @@
-CREATE USER 'springframework'@'localhost' IDENTIFIED BY 'guru';
+CREATE USER 'springdevops'@'localhost' IDENTIFIED BY 'dojo';
 
-GRANT SELECT ON springguru.* to 'springframework'@'localhost';
-GRANT INSERT ON springguru.* to 'springframework'@'localhost';
-GRANT DELETE ON springguru.* to 'springframework'@'localhost';
-GRANT UPDATE ON springguru.* to 'springframework'@'localhost';
+GRANT SELECT ON springdevopsdojo.* to 'springdevops'@'localhost';
+GRANT INSERT ON springdevopsdojo.* to 'springdevops'@'localhost';
+GRANT DELETE ON springdevopsdojo.* to 'springdevops'@'localhost';
+GRANT UPDATE ON springdevopsdojo.* to 'springdevops'@'localhost';
 
 
 CREATE USER 'qa2user'@'localhost' IDENTIFIED BY 'qa2password';

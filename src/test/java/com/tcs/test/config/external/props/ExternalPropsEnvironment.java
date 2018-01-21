@@ -8,7 +8,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 
 /**
- * Created by jt on 5/7/16.
+ * Created by at on 5/7/16.
  */
 @Configuration
 @PropertySource("classpath:testing.properties")
@@ -20,10 +20,10 @@ public class ExternalPropsEnvironment {
     @Bean
     public FakeJmsBroker fakeJmsBrokerEnv(){
         FakeJmsBroker fakeJmsBroker = new FakeJmsBroker();
-        fakeJmsBroker.setUrl(env.getProperty("guru.jms.server"));
-        fakeJmsBroker.setPort(env.getRequiredProperty("guru.jms.port", Integer.class));
-        fakeJmsBroker.setUser(env.getProperty("guru.jms.user"));
-        fakeJmsBroker.setPassword(env.getProperty("guru.jms.password"));
+        fakeJmsBroker.setUrl(env.getProperty("dojo.jms.server"));
+        fakeJmsBroker.setPort(env.getRequiredProperty("dojo.jms.port", Integer.class));
+        fakeJmsBroker.setUser(env.getProperty("dojo.jms.user"));
+        fakeJmsBroker.setPassword(env.getProperty("dojo.jms.password"));
         return fakeJmsBroker;
     }
 }

@@ -1,7 +1,7 @@
 package com.tcs.springframework.test.jms;
 
 /**
- * Created by jt on 5/7/16.
+ * Created by at on 5/7/16.
  */
 public class FakeJmsBroker {
 

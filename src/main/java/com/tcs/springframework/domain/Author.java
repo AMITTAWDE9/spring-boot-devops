@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 /**
- * Created by jt on 1/26/16.
+ * Created by at on 1/26/16.
  */
 @Entity
 public class Author {

@@ -10,22 +10,22 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 /**
  *
  * since Spring 3.1
- * Created by jt on 5/7/16.
+ * Created by at on 5/7/16.
  */
 @Configuration
 @PropertySource("classpath:testing.properties")
 public class ExternalPropsPropertySourceTestConfig {
 
-    @Value("${guru.jms.server}")
+    @Value("${dojo.jms.server}")
     String jmsServer;
 
-    @Value("${guru.jms.port}")
+    @Value("${dojo.jms.port}")
     Integer jmsPort;
 
-    @Value("${guru.jms.user}")
+    @Value("${dojo.jms.user}")
     String jmsUser;
 
-    @Value("${guru.jms.password}")
+    @Value("${dojo.jms.password}")
     String jmsPassword;
 
 

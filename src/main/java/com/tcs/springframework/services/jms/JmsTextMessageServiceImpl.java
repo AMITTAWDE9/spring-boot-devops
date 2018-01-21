@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import javax.jms.Queue;
 
 /**
- * Created by jt on 5/6/16.
+ * Created by at on 5/6/16.
  */
 @Service
 public class JmsTextMessageServiceImpl implements JmsTextMessageService {

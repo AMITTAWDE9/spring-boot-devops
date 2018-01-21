@@ -4,7 +4,7 @@ import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by jt on 5/6/16.
+ * Created by at on 5/6/16.
  */
 @Component
 public class JmsTextMessageListener {

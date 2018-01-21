@@ -7,7 +7,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by jt on 1/26/16.
+ * Created by at on 1/26/16.
  */
 @Entity
 public class Product {
