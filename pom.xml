@@ -110,4 +110,11 @@
 			<url>https://devopsalliance.jfrog.io/devopsalliance/libs-snapshot-local</url>
 		</snapshotRepository>
 	</distributionManagement>
+
+	<scm>
+		<connection>scm:git:https://github.com/AMITTAWDE9/spring-boot-devops.git</connection>
+		<developerConnection>scm:git:https://github.com/AMITTAWDE9/spring-boot-devops.git</developerConnection>
+		<url>https://github.com/AMITTAWDE9/spring-boot-devops/tree/master</url>
+		<tag>master</tag>
+	</scm>
 </project>
