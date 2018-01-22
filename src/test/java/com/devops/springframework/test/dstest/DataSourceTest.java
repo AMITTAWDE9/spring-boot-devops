@@ -16,7 +16,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(DataSourceConfig.class)
-@ActiveProfiles("com/tcs")
+@ActiveProfiles("com/devops")
 @Ignore
 public class DataSourceTest {
 
